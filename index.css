@@ -10,12 +10,28 @@ body {
   
   background-color: white;
   
-  border: 5px transparent solid;
+  border: 3px transparent solid;
 }
 
 .fill {
+  cursor: move;
+
   width: 150px;
   height: 150px;
 
   background-image: url(https://source.unsplash.com/random/150x150);
 }
+
+.invisible {
+  display: none;
+}
+
+.hold {
+  border: 3px #ececec solid;
+}
+
+.hovered {
+  background: #e8e8e8;
+  border: 3px #9a9a9a dashed;
+}
+
