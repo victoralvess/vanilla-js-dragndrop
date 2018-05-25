@@ -1,0 +1,21 @@
+body {
+  background-color: tomato;
+}
+
+.empty {
+  display: inline-block;
+  
+  width: 150px;
+  height: 150px;
+  
+  background-color: white;
+  
+  border: 5px transparent solid;
+}
+
+.fill {
+  width: 150px;
+  height: 150px;
+
+  background-image: url(https://source.unsplash.com/random/150x150);
+}
