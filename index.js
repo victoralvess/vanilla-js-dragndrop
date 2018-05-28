@@ -1,3 +1,4 @@
+
 const empties = document.querySelectorAll('.empty');
 const fill = document.querySelector('.fill');
 
@@ -14,7 +15,7 @@ for (const empty of empties) {
 
 function dragStart () {
   this.className += ' hold';
-  this.className = 'invisible';
+  setTimeout(() => this.className = 'invisible');
 }
 
 function dragEnd () {
